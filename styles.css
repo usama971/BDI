@@ -1,6 +1,8 @@
 /* =========================
    BDI GAMES - LIGHT THEME (No Black)
 ========================= */
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 
 :root {
   --bg-light: #f8fafc;
@@ -12,7 +14,7 @@
   --accent-red: #dc2626;
   --accent-blue: #3b82f6;
   --accent-yellow: #fbbf24;
-  --font-display: "Bebas Neue", sans-serif;
+  --font-display: "Titan One", sans-serif;
   --font-body: "Poppins", sans-serif;
 }
 
@@ -187,6 +189,7 @@ body {
   color: var(--accent-red);
   margin-top: 0;
   margin-bottom: 1rem;
+  font-weight: 500
 }
 
 .section-about-company p,
@@ -245,6 +248,7 @@ body {
   font-family: var(--font-display);
   color: var(--text);
   font-size: 2rem;
+  font-weight: 500
 }
 
 .section-our-games .section-text {
@@ -373,7 +377,7 @@ body {
   font-family: var(--font-display);
   color: var(--text-muted);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.95rem;
   padding: 0.6rem 1rem;
   border-radius: 8px;
@@ -726,6 +730,7 @@ body {
 
 h1, h2, h3 {
   font-family: var(--font-display);
+  font-weight: 500
 }
 
 .hero h1 {
