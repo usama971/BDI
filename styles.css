@@ -225,9 +225,11 @@ body::before {
 
 .menu-toggle span {
   display: block;
+  width: 24px;
   height: 2px;
+  min-height: 2px;
   background: linear-gradient(90deg, var(--accent-cyan), var(--accent-magenta));
-  margin: 5px 0;
+  margin: 4px 0;
   border-radius: 2px;
   transition: all 0.3s ease;
 }
@@ -358,13 +360,14 @@ h1, h2, h3 {
 .hero-btn:hover {
   transform: translateY(-4px) scale(1.02);
   box-shadow: 0 10px 40px rgba(255, 0, 229, 0.5), 0 0 60px rgba(0, 245, 255, 0.3);
+  color:#fff;
 }
 
 .hero-btn:hover::before {
   opacity: 1;
 }
 
-.hero-btn {
+.hero-btn span {
   position: relative;
   z-index: 1;
 }
